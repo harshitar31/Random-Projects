@@ -4,6 +4,9 @@
 
 body{
     background-image : url(https://static.wikia.nocookie.net/geronimostilton/images/0/02/Cheesewallpaper.png/revision/latest?cb=20120220072530);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .row{
@@ -46,14 +49,15 @@ body{
     height: 100%; */
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     opacity: 0;
+    box-sizing: border-box;
     transition: opacity 0.3s ease;
     font-size: medium;
-
+    padding: 20px;
 }
 
 
